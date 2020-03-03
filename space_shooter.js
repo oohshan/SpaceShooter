@@ -357,6 +357,29 @@ class EnemySpawner {
 
 }
 
+class CollisionHandler {
+
+	constructor() {
+		this.entities = entities;
+	}
+
+	update(delta_time) {
+		console.log(entities.size)
+		// for (i=0 ; i<length(entities) ; i++) {
+		// 	console.log(this.entities)
+		// }
+		Object.values(entities).forEach(entity => {
+			// console.log(entity);
+			// if (rect1.x < rect2.x + rect2.width &&
+			// 	rect1.x + rect1.width > rect2.x &&
+			// 	rect1.y < rect2.y + rect2.height &&
+			// 	rect1.y + rect1.height > rect2.y) {
+					
+			// }
+		});
+	}
+}
+
 /* 
 ------------------------------
 ------ CONFIG SECTION -------- 
