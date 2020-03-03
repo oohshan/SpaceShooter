@@ -364,7 +364,7 @@ class CollisionHandler {
 	}
 
 	update(delta_time) {
-		console.log(entities.size)
+		console.log(this.entities)
 		// for (i=0 ; i<length(entities) ; i++) {
 		// 	console.log(this.entities)
 		// }
